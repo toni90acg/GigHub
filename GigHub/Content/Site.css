@@ -29,10 +29,18 @@ textarea {
     border-color: #FF4342;
 }
 
+.navbar-brand {
+    font-weight: 700;
+}
+
 .navbar-inverse .navbar-nav > li > a{
     color: #fff
 }
-
+    
 .navbar-inverse .navbar-brand {
     color: #fff
+}
+
+.navbar-inverse .navbar-nav > .open > a, .navbar-inverse .navbar-nav > .open > a:hover, .navbar-inverse .navbar-nav > .open > a:focus {
+    background-color: rgba(205, 40, 39, 0.55);
 }
